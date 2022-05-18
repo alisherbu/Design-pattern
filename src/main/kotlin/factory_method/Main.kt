@@ -11,7 +11,7 @@ fun main() {
         val productName = inp.next()
         showCommand()
         val n = inp.nextInt()
-        if (n <= logistics.size) myLogistic = logistics[n-1]
+        if (n <= logistics.size) myLogistic = logistics[n - 1]
         else break
         myLogistic.createTransport()
 

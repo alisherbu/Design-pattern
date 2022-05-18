@@ -9,7 +9,10 @@ import abstract_factory.phones.Xiaomi
 
 class XiaomiCompany : MobilePhoneCompany {
 
+    override val companyName get() = "Xiaomi Company"
+
     override fun createPhone(): Phone {
+        println("Congratulations on your new Xiaomi phone.")
         return Xiaomi()
     }
 

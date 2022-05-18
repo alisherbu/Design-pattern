@@ -4,6 +4,9 @@ import abstract_factory.chargers.Charger
 import abstract_factory.earphones.Earphone
 
 class Apple : Phone {
+    override val phoneName: String
+        get() = "Apple"
+
     override fun listenMusicWithEarphone(earphone: Earphone) {
         earphone.play(12)
     }

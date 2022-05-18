@@ -3,7 +3,10 @@ package abstract_factory.phones
 import abstract_factory.chargers.Charger
 import abstract_factory.earphones.Earphone
 
-class Xiaomi:Phone {
+class Xiaomi : Phone {
+    override val phoneName: String
+        get() = "Xiaomi"
+
     override fun listenMusicWithEarphone(earphone: Earphone) {
         earphone.play(25)
     }

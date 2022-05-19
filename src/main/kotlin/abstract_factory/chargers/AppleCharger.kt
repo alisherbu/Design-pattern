@@ -3,7 +3,7 @@ package abstract_factory.chargers
 
 class AppleCharger : Charger {
     override fun charge(isFaster: Boolean) {
-        print("Charging... ")
+        print("Apple Charging... ")
         repeat(10) {
             Thread.sleep(500)
             when (it) {

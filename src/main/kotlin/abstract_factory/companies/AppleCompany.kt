@@ -8,6 +8,7 @@ import abstract_factory.phones.Apple
 import abstract_factory.phones.Phone
 
 class AppleCompany : MobilePhoneCompany {
+
     override val companyName get() = "Apple Company"
 
     override fun createPhone(): Phone {

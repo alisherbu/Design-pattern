@@ -1,5 +1,9 @@
 package factory_method
 
+import factory_method.logistic.Logistic
+import factory_method.logistic.PlaneLogistic
+import factory_method.logistic.RoadLogistic
+import factory_method.logistic.SeaLogistic
 import java.util.Scanner
 
 lateinit var myLogistic: Logistic
